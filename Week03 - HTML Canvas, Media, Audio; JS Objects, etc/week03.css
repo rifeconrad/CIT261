@@ -1,0 +1,21 @@
+#pong {
+  border: 1px solid black;
+}
+
+audio {
+  display: none;
+}
+
+iframe.music{
+  display: none;
+}
+
+p {
+  font-size: 10px;
+}
+
+#gamebtn {
+  height: 100px;
+  width: 300px;
+  background-color: red;
+}
