@@ -1,0 +1,22 @@
+div {
+  width: 75px;
+  height: 25px;
+  background: red;
+  padding: 10px;
+  color: white;
+
+  -webkit-transition: width 0.75s; /* For Safari 3.1 to 6.0 */
+  transition: width 0.75s;
+}
+
+div:hover {
+  width: 100px;
+}
+
+#home, #menu, #contact {
+  background: #120202;
+}
+
+#about, #directions {
+  background: #EC240F;
+}

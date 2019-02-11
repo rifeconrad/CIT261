@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Week 05</title>
+    <script src="week05.js"></script>
+    <link rel="stylesheet" type="text/css" href="week05.css">
+  </head>
+  <body>
+    <div id="storage">
+      <button type="button" onclick="localStorageTest()">Local Storage</button><br>
+      <p id="local"></p>
+      <button type="button" onclick="sessionStorageTest()">Session Storage</button><br>
+      <p id="session"></p>
+    </div>
+    <div id="transformation">
+    </div>
+    <div id="transform_buttons">
+      <button type="button" onclick="rotate('right')">Rotate Right</button>
+      <button type="button" onclick="rotate('left')">Rotate Left</button>
+      <button type="button" onclick="translaty('up')">Translate Up</button>
+      <button type="button" onclick="translaty('down')">Translate Down</button>
+      <button type="button" onclick="scale('bigger')">Bigger</button>
+      <button type="button" onclick="scale('smaller')">Smaller</button>
+    </div>
+  </body>
+</html>
