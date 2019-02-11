@@ -2,14 +2,6 @@
   border: 1px solid black;
 }
 
-audio {
-  display: none;
-}
-
-iframe.music{
-  display: none;
-}
-
 p {
   font-size: 10px;
 }
