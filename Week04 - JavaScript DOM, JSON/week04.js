@@ -8,6 +8,7 @@ var Person = {
 
 // where we will turn the object into JSON
 function testJSON() {
+
   // what does the object look like (as text) prior to JSON conversion?
   document.getElementById("PREJSON").innerHTML = "Created a Person Object<br><br>Pre-JSON: " + Person;
 
