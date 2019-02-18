@@ -42,7 +42,7 @@ function testDOM() {
   // change the text on the third line!
   line_three.innerHTML = "where'd line three go?";
   // have the page listen for any key presses (calls showWorkingListener)
-  document.addEventListener("keydown", showWorkingListener);
+  document.addEventListener("mousedown", showWorkingListener);
 }
 
 // called when a key is pressed
